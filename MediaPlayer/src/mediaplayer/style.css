@@ -1,0 +1,42 @@
+
+#seekSlider {
+    -fx-opacity: 0.1;
+}
+
+#seekSlider:hover {
+    -fx-opacity: 1;
+}
+
+
+#openFile {
+    -fx-background-image: url("../images/folder.png");
+    -fx-background-size: 20 20 ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+#playButton {
+    -fx-background-image: url("../images/play.png");
+    -fx-background-size: 20 20 ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+#pauseButton {
+    -fx-background-image: url("../images/pause.png");
+    -fx-background-size: 20 20 ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+#stopButton {
+    -fx-background-image: url("../images/stop.png");
+    -fx-background-size: 20 20 ;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MediaPlayer.jnlp">
+  <information>
+    <title>MediaPlayer</title>
+    <vendor>prince_pratik7</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MediaPlayer.jar" size="8123" download="eager" />
+    <jar href="lib\JTattoo-1.6.11.jar" size="1205099" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MediaPlayer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="MediaPlayer.mediaplayer"  name="MediaPlayer" />
+  <update check="always"/>
+</jnlp>
